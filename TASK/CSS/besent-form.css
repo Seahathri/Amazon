@@ -1,0 +1,55 @@
+.img{
+width: 550px;
+}
+
+.display{
+display: flex;
+gap: 250px;
+margin-left: 50px;
+}
+.card {
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+    width: 40%;
+  }
+
+  
+  .container {
+    padding: 2px 16px;
+    margin-left: 350px;
+  }
+
+.officeuse{
+font-size: x-small;
+margin-left: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

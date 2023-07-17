@@ -1,0 +1,122 @@
+
+.header{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(150, 153, 155);
+    border-radius: 20px;
+}
+
+/* <<<<<<<<<<<<<<<<headder style End>>>>>>>>>>>>>>>>> */
+
+.container{
+margin-left: 5px;
+margin-right: 5px;
+text-align: justify;
+
+}
+
+
+.div-left{
+float: left;
+background: rgb(13, 125, 216);
+width: 60%;
+border-width: 5px;
+height: 100vh;
+/* border:2px solid rgb(0, 0, 0); */
+
+}
+
+
+.onerec{
+text-align: center;
+margin-top: 39%;
+color: white;
+
+}
+span{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: xxx-large; 
+}
+label{
+    font-family: 'Times New Roman', Times, serif; font-size: larger;
+    
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<div left  End >>>>>>>>>>>>>>>>>>*/
+
+.div-right{
+    float: right;
+    background: rgb(145, 143, 143);
+    text-align: center;
+    width: 40%;
+height: 100vh;
+
+    }
+.login{
+    text-align: center;
+    margin-top: 39%;
+    
+}
+.margin{
+margin-bottom: 1%;
+
+}
+.remember{
+    margin-bottom: 1%;
+    margin-left: -4%;
+    
+}
+.button{
+color: rgb(250, 246, 246);
+    background: rgb(13, 125, 216);
+    width: 150px;
+    height: 26px;
+}
+.button2{
+    color: rgb(250, 246, 246);
+        background: rgb(252, 5, 5);
+        width: 150px;
+        height: 26px;
+margin-top: 20%;
+
+}
+.input{
+width: 250px;
+height: 26px;
+}
+
+/* Media querry */
+
+@media(min-width:375px) and (max-width:667px){
+    .button{
+        background: rgb(4, 255, 100);
+        width: 60px;
+        height:25px;
+    }
+
+    .onerec{
+        color: rgb(223, 13, 13);
+
+}
+.input{
+    width: 120px;
+    height: 26px;
+    }
+
+}
+@media(min-width:768px) and (max-width:1024px) {
+    .button{
+        background: rgb(241, 4, 182);
+        width: 60px;
+        height:25px;
+    }
+
+    .onerec{
+        color: rgb(223, 209, 13);
+
+}
+.input{
+    width: 120px;
+    height: 26px;
+    }
+}
